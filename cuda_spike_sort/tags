@@ -1,0 +1,61 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+ARCH	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/Makefile	/^ARCH=$(shell uname | sed -e 's\/-.*\/\/g')$/;"	m	language:Make
+CC_FILES	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/Makefile	/^CC_FILES   := spike_sort.cpp$/;"	m	language:Make
+CERTAINTY_CUTOFF	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	6;"	d	language:C++
+cls_info	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	/^} cls_info;$/;"	t	language:C++	typeref:struct:__anon3
+cluster	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	/^    int cluster;$/;"	m	language:C++	struct:__anon2
+clusterId	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	/^    int clusterId;$/;"	m	language:C++	struct:__anon4
+cluster_res	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	/^} cluster_res;$/;"	t	language:C++	typeref:struct:__anon4
+CU_DEPS	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/Makefile	/^CU_DEPS    :=$/;"	m	language:Make
+CU_FILES	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/Makefile	/^CU_FILES   := interpolate_cluster.cu$/;"	m	language:Make
+CXX	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/Makefile	/^CXX=g++ -m64$/;"	m	language:Make
+CXXFLAGS	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/Makefile	/^CXXFLAGS=-O3 -Wall$/;"	m	language:Make
+data	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.cpp	/^float* data;$/;"	v	language:C++
+data_point	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.cpp	/^inline float data_point(const float* data, const int channel, const int tp) {$/;"	f	language:C++
+DEBUG_ALIGNMENT	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	19;"	d	language:C++
+DEBUG_SPLINE	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	17;"	d	language:C++
+DETECT_THRESH	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	3;"	d	language:C++
+dist	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	/^    double dist;$/;"	m	language:C++	struct:__anon4
+done	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.cpp	/^bool done = false;$/;"	v	language:C++
+dp	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	/^    int dp;$/;"	m	language:C++	struct:__anon2
+EXECUTABLE	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/Makefile	/^EXECUTABLE := cudaSpikeSort$/;"	m	language:Make
+FILENAME	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	/^const char FILENAME [] = "10000DP_2CH_20WS_5CL";$/;"	v	language:C++
+find_spike_cluster	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.cpp	/^void find_spike_cluster(float *, int);$/;"	p	language:C++	file:
+HPP_FILES	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/Makefile	/^HPP_FILES  := spike_sort.h cycle_timer.h work_queue.h$/;"	m	language:Make
+LDFLAGS	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/Makefile	/^LDFLAGS=-L\/usr\/local\/depot\/cuda-6.5\/lib64\/ -lcudart -lpthread$/;"	m	language:Make
+LDFLAGS	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/Makefile	/^LDFLAGS=-L\/usr\/local\/depot\/cuda-6.5\/lib\/ -lcudart$/;"	m	language:Make
+LEFT_WINDOW	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	2;"	d	language:C++
+LOOKBACK_DIST	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	8;"	d	language:C++
+main	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.cpp	/^int main() {$/;"	f	language:C++
+MAX_NUM_CLUSTER	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	9;"	d	language:C++
+MAX_NUM_SPIKES	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	13;"	d	language:C++
+MIN_CLUSTER_THRESH	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	7;"	d	language:C++
+NOISE_CLUSTER	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	4;"	d	language:C++
+NUM_CHANNELS	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	10;"	d	language:C++
+num_clusters	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	/^    int num_clusters;$/;"	m	language:C++	struct:__anon3
+NUM_DATAPOINTS_PERCHANNEL	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	11;"	d	language:C++
+NUM_INTERP_SAMPS	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	12;"	d	language:C++
+num_spikes	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	/^    int num_spikes;$/;"	m	language:C++	struct:__anon3
+num_spike_cpu	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.cpp	/^int num_spike_cpu = 0;$/;"	v	language:C++
+num_spike_gpu	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.cpp	/^int num_spike_gpu = 0;$/;"	v	language:C++
+NVCC	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/Makefile	/^NVCC=nvcc$/;"	m	language:Make
+NVCCFLAGS	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/Makefile	/^NVCCFLAGS=-O3 -m64$/;"	m	language:Make
+OBJDIR	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/Makefile	/^OBJDIR=objs$/;"	m	language:Make
+OBJS	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/Makefile	/^OBJS=$(OBJDIR)\/spike_sort.o  $(OBJDIR)\/interpolate_cluster.o$/;"	m	language:Make
+printCudaInfo	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.cpp	/^void printCudaInfo();$/;"	p	language:C++	file:
+print_cluster_info	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.cpp	/^void print_cluster_info();$/;"	p	language:C++	file:
+PRUNED_CLUSTER	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	5;"	d	language:C++
+read_spike_dataset	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.cpp	/^void read_spike_dataset() {$/;"	f	language:C++
+spike_datapoint	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.cpp	/^WorkQueue<float*> spike_datapoint;$/;"	v	language:C++
+spike_detection_thread	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.cpp	/^void* spike_detection_thread(void *arg) {$/;"	f	language:C++
+spike_handler_thread	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.cpp	/^void* spike_handler_thread(void *arg) {$/;"	f	language:C++
+spike_info	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	/^} spike_info;$/;"	t	language:C++	typeref:struct:__anon2
+spike_sort_init	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.cpp	/^void spike_sort_init();$/;"	p	language:C++	file:
+spk_cls_mean	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	/^    float spk_cls_mean[MAX_NUM_CLUSTER][NUM_CHANNELS][NUM_INTERP_SAMPS];$/;"	m	language:C++	struct:__anon3
+spk_cls_size	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	/^    int spk_cls_size[MAX_NUM_CLUSTER];$/;"	m	language:C++	struct:__anon3
+spline_quad	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	/^} spline_quad;$/;"	t	language:C++	typeref:struct:__anon1
+WINDOW_SIZE	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	1;"	d	language:C++
+xi	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	/^    double xi;$/;"	m	language:C++	struct:__anon1
+xip1	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	/^    double xip1;$/;"	m	language:C++	struct:__anon1
+zi	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	/^    double zi;$/;"	m	language:C++	struct:__anon1
+zip1	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/cuda_spike_sort/spike_sort.h	/^    double zip1;$/;"	m	language:C++	struct:__anon1

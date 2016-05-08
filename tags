@@ -1,0 +1,64 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+alignment_time	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^double alignment_time = 0;$/;"	v	language:C++
+calculate_spline_interpolation	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^void calculate_spline_interpolation(double *spline_spike, double *spike_train) {$/;"	f	language:C++
+CERTAINTY_CUTOFF	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	6;"	d	language:C++
+closest_cluster	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^void closest_cluster(double* spike, cluster_res* res) {$/;"	f	language:C++
+cls_info	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	/^} cls_info;$/;"	t	language:C++	typeref:struct:__anon3
+cluster	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	/^    int cluster;$/;"	m	language:C++	struct:__anon2
+clusterId	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	/^    int clusterId;$/;"	m	language:C++	struct:__anon4
+clustering_algotime	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^double clustering_algotime = 0;$/;"	v	language:C++
+cluster_res	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	/^} cluster_res;$/;"	t	language:C++	typeref:struct:__anon4
+cluster_spike	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^void cluster_spike(double* spline_spike, int *spk_info) {$/;"	f	language:C++
+data	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^double* data;$/;"	v	language:C++
+DATA_LENGTH	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/gendata.cpp	7;"	d	language:C++	file:
+data_point	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^inline double data_point(const double* data, const int channel, const int tp) {$/;"	f	language:C++
+DETECT_THRESH	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	3;"	d	language:C++
+dist	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	/^    double dist;$/;"	m	language:C++	struct:__anon4
+done	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^bool done = false;$/;"	v	language:C++
+dp	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	/^    int dp;$/;"	m	language:C++	struct:__anon2
+eliminate_noise_clusters	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^void eliminate_noise_clusters() {$/;"	f	language:C++
+FILENAME	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	/^const char FILENAME [] = "1000000DP_128CH_20WS_15CL";$/;"	v	language:C++
+get_spline_values	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^void get_spline_values(const double* data, spline_quad* res) {$/;"	f	language:C++
+include_noise	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/gendata.cpp	/^bool include_noise = true;$/;"	v	language:C++
+init_spk_info	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^void init_spk_info() {$/;"	f	language:C++
+LEFT_WINDOW	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	2;"	d	language:C++
+LOOKBACK_DIST	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	8;"	d	language:C++
+main	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/gendata.cpp	/^int main() {$/;"	f	language:C++
+main	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^int main() {$/;"	f	language:C++
+MAX_NUM_CLUSTER	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	9;"	d	language:C++
+MAX_NUM_SPIKES	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	13;"	d	language:C++
+MIN_CLUSTER_THRESH	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	7;"	d	language:C++
+NOISE_CLUSTER	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	4;"	d	language:C++
+NOISE_DATA_RATIO	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/gendata.cpp	8;"	d	language:C++	file:
+NUM_CHANNELS	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/gendata.cpp	6;"	d	language:C++	file:
+NUM_CHANNELS	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	10;"	d	language:C++
+NUM_CLUSTERS	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/gendata.cpp	9;"	d	language:C++	file:
+num_clusters	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	/^    int num_clusters;$/;"	m	language:C++	struct:__anon3
+NUM_DATAPOINTS_PERCHANNEL	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	11;"	d	language:C++
+NUM_INTERP_SAMPS	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	12;"	d	language:C++
+num_spikes	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	/^    int num_spikes;$/;"	m	language:C++	struct:__anon3
+num_spike_cpu	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^int num_spike_cpu = 0;$/;"	v	language:C++
+num_spike_gpu	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^int num_spike_gpu = 0;$/;"	v	language:C++
+print_cluster_info	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^void print_cluster_info() {$/;"	f	language:C++
+PRUNED_CLUSTER	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	5;"	d	language:C++
+prune_time	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^double prune_time = 0;$/;"	v	language:C++
+read_spike_dataset	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^void read_spike_dataset() {$/;"	f	language:C++
+spike_alignment	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^void spike_alignment(double *sp) {$/;"	f	language:C++
+spike_datapoint	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^WorkQueue<double*> spike_datapoint;$/;"	v	language:C++
+spike_detection_thread	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^void* spike_detection_thread(void *arg) {$/;"	f	language:C++
+spike_handler_thread	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^void* spike_handler_thread(void *arg) {$/;"	f	language:C++
+spike_info	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	/^} spike_info;$/;"	t	language:C++	typeref:struct:__anon2
+spk_cls_mean	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	/^    float spk_cls_mean[MAX_NUM_CLUSTER][NUM_CHANNELS][NUM_INTERP_SAMPS];$/;"	m	language:C++	struct:__anon3
+spk_cls_size	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	/^    int spk_cls_size[MAX_NUM_CLUSTER];$/;"	m	language:C++	struct:__anon3
+spk_cls_state	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^cls_info spk_cls_state;$/;"	v	language:C++
+spk_info	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^int spk_info[MAX_NUM_SPIKES];$/;"	v	language:C++
+spline_eval_point	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^double spline_eval_point(double t, spline_quad* sqs, int ch) {$/;"	f	language:C++
+spline_interpolation_time	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^double spline_interpolation_time = 0;$/;"	v	language:C++
+spline_quad	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	/^} spline_quad;$/;"	t	language:C++	typeref:struct:__anon1
+temp_b	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.cpp	/^bool temp_b = false;$/;"	v	language:C++
+WINDOW_SIZE	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/gendata.cpp	5;"	d	language:C++	file:
+WINDOW_SIZE	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	1;"	d	language:C++
+xi	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	/^    double xi;$/;"	m	language:C++	struct:__anon1
+xip1	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	/^    double xip1;$/;"	m	language:C++	struct:__anon1
+zi	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	/^    double zi;$/;"	m	language:C++	struct:__anon1
+zip1	/afs/andrew.cmu.edu/usr8/aarumuga/final-28/spike_sort.h	/^    double zip1;$/;"	m	language:C++	struct:__anon1
